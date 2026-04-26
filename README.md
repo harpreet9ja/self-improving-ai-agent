@@ -154,39 +154,6 @@ Gradio UI will open in browser 🎉
 
 ---
 
-## 🔁 Flow Diagram (mental model)
-
-```
-User → OpenAI → Evaluator → (Good ✅ → Return)
-                           → (Bad ❌ → Groq सुधार → Return)
-```
-
----
-
-## ⚠️ Notes
-
-- Do NOT commit `.env`
-- Ensure PDF has extractable text (not scanned)
-- Evaluation adds latency but improves quality
-
----
-
-## 💡 Future Improvements
-
-- Add streaming responses
-- Store chat history
-- Deploy on cloud (HF Spaces / AWS / Vercel)
-- Add voice interface
-- Multi-persona support
-
----
-
-## 👤 Author
-
-**Harpreet Singh Walia**
-
----
-
 ## 🪪 License
 
 MIT License (or your preferred license)
